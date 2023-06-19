@@ -72,7 +72,7 @@ function HomePage() {
                         <button className={ 'p-2 rounded-2xl bg-white text-gray-800' } onClick={() => handleLoading('max')}>Max</button>
                     </div>
                 </div>
-                <LeaderboardsComponent array={ leaders }></LeaderboardsComponent>
+                <LeaderboardsComponent array={ leaders } setLeaders={setLeaders}></LeaderboardsComponent>
             </div>
         </div>
     )
